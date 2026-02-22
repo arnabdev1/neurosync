@@ -1,0 +1,370 @@
+{
+  "date": "2025-02-22",
+  "user_id": "user_4821",
+  "hourly_trends": [
+    {
+      "hour": "07:00",
+      "label": "Morning Ramp-Up",
+      "avg_focus_score": 60.4,
+      "avg_stress_level": 30.3,
+      "dominant_state": "LIGHT_WORK",
+      "primary_apps": ["Gmail", "Slack"],
+      "active_minutes": 4,
+      "trend_description": "User started the day with email and Slack catchup. Focus is moderate and stress is low — a typical slow morning warm-up. No significant anomalies."
+    },
+    {
+      "hour": "08:00",
+      "label": "Peak Morning Deep Work",
+      "avg_focus_score": 85.1,
+      "avg_stress_level": 21.9,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["VS Code", "Chrome"],
+      "active_minutes": 10,
+      "trend_description": "Strong sustained focus session in VS Code. Focus climbed steadily from 78 to 88+ over 10 minutes with stress remaining low. This is the first peak cognitive window of the day — user was in flow state."
+    },
+    {
+      "hour": "09:00",
+      "label": "Stressful Meeting",
+      "avg_focus_score": 64.5,
+      "avg_stress_level": 51.2,
+      "dominant_state": "MEETING",
+      "primary_apps": ["Zoom"],
+      "active_minutes": 6,
+      "trend_description": "Stress spiked sharply during a Zoom meeting — rising from 41 to 64 in 6 minutes, the highest stress window of the day. Focus also declined. This triggered a triage check-in session at 09:36."
+    },
+    {
+      "hour": "10:00",
+      "label": "Recovery + Focus Rebuild",
+      "avg_focus_score": 78.4,
+      "avg_stress_level": 27.8,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["Notion"],
+      "active_minutes": 5,
+      "trend_description": "After the triage session and medication reminder, user shifted to writing/planning in Notion. Stress dropped back to baseline and focus rebuilt steadily — good recovery arc."
+    },
+    {
+      "hour": "11:00",
+      "label": "Inactive",
+      "avg_focus_score": null,
+      "avg_stress_level": null,
+      "dominant_state": null,
+      "primary_apps": [],
+      "active_minutes": 0,
+      "trend_description": "No active device usage recorded during this hour. Likely a break, lunch prep, or away from device."
+    },
+    {
+      "hour": "12:00",
+      "label": "Lunch Break + Brief Anomaly",
+      "avg_focus_score": 49.6,
+      "avg_stress_level": 21.5,
+      "dominant_state": "BREAK",
+      "primary_apps": ["Reddit", "YouTube"],
+      "active_minutes": 5,
+      "trend_description": "Relaxed browsing during lunch. One unusual spike to focus_score 84.94 was detected at 12:07 while on Reddit — out of character for a break window. LLM flagged this as likely context switching or accidental trigger."
+    },
+    {
+      "hour": "13:00",
+      "label": "Afternoon Deep Work",
+      "avg_focus_score": 81.1,
+      "avg_stress_level": 28.0,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["VS Code", "Chrome"],
+      "active_minutes": 5,
+      "trend_description": "Solid second coding session. Focus ramps from 75 to 83 with stable stress. Performance is slightly below morning peak but consistent — user appears well recovered after lunch."
+    },
+    {
+      "hour": "14:00",
+      "label": "Communication Strain",
+      "avg_focus_score": 49.7,
+      "avg_stress_level": 42.6,
+      "dominant_state": "COMMUNICATION",
+      "primary_apps": ["Slack"],
+      "active_minutes": 3,
+      "trend_description": "A short but stressful Slack exchange raised stress to 47 while focus dropped to 47. Pattern is consistent with a difficult message thread or urgent escalation. A triage notification was issued."
+    },
+    {
+      "hour": "15:00",
+      "label": "Best Focus Block of Day",
+      "avg_focus_score": 88.9,
+      "avg_stress_level": 22.8,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["VS Code", "Chrome"],
+      "active_minutes": 6,
+      "trend_description": "User hit peak focus for the day — 91.4 at 15:32. Stress was low and sustained. This is the strongest cognitive window across the full 24-hour period, likely benefiting from post-lunch recovery and minimal interruptions."
+    },
+    {
+      "hour": "16:00",
+      "label": "Wind-Down Comms",
+      "avg_focus_score": 62.7,
+      "avg_stress_level": 32.1,
+      "dominant_state": "LIGHT_WORK",
+      "primary_apps": ["Gmail"],
+      "active_minutes": 2,
+      "trend_description": "End-of-day email checks. Moderate focus and stable stress — nothing remarkable. User is transitioning out of deep work mode."
+    },
+    {
+      "hour": "17:00",
+      "label": "Late Afternoon Planning",
+      "avg_focus_score": 73.5,
+      "avg_stress_level": 27.4,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["Notion"],
+      "active_minutes": 3,
+      "trend_description": "Short Notion session — likely end-of-day planning or journaling. Focus is healthy and stress is declining toward evening baseline."
+    },
+    {
+      "hour": "20:00",
+      "label": "Evening Unwind",
+      "avg_focus_score": 36.7,
+      "avg_stress_level": 14.9,
+      "dominant_state": "BREAK",
+      "primary_apps": ["YouTube"],
+      "active_minutes": 3,
+      "trend_description": "Passive YouTube consumption. Focus and stress are at their daily lows — user is decompressing effectively. No alerting patterns."
+    },
+    {
+      "hour": "21:00",
+      "label": "Light Reading",
+      "avg_focus_score": 57.4,
+      "avg_stress_level": 12.2,
+      "dominant_state": "LIGHT_WORK",
+      "primary_apps": ["Kindle"],
+      "active_minutes": 3,
+      "trend_description": "Kindle reading before bed. Gentle focus uptick with the lowest stress of the day. Positive end to the cognitive day — good wind-down behavior."
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "sess_001",
+      "type": "MEDICINE_NOTIFICATION",
+      "timestamp": "2025-02-22T08:00:00",
+      "details": {
+        "medicine": "Adderall XR 20mg",
+        "status": "ACKNOWLEDGED",
+        "acknowledged_at": "2025-02-22T08:01:34",
+        "note": "Morning dose. User acknowledged within 2 minutes."
+      }
+    },
+    {
+      "session_id": "sess_002",
+      "type": "TRIAGE_NOTIFICATION",
+      "timestamp": "2025-02-22T09:36:00",
+      "details": {
+        "trigger": "Stress spike detected — stress_level rose from 28.4 to 63.9 over 6 minutes during Zoom session",
+        "threshold_exceeded": "stress_level > 60",
+        "status": "ACCEPTED",
+        "agent_session_id": "triage_009",
+        "note": "User accepted the triage prompt and entered a 5-minute check-in."
+      }
+    },
+    {
+      "session_id": "sess_003",
+      "type": "TRIAGE_CHAT_LOG",
+      "timestamp": "2025-02-22T09:36:00",
+      "agent_session_id": "triage_009",
+      "trigger": {
+        "metric": "stress_level",
+        "value_before": 28.4,
+        "value_after": 63.9,
+        "change": "+35.5",
+        "context_app": "Zoom",
+        "context_state": "MEETING"
+      },
+      "duration_seconds": 298,
+      "chat_log": [
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T09:36:05",
+          "message": "Hey — I noticed your stress jumped quite a bit during the meeting just now. How are you feeling right now, on a scale of 1 to 10?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T09:36:24",
+          "message": "Honestly, like a 7. The meeting got tense, my manager was questioning my estimates in front of everyone."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T09:36:32",
+          "message": "That sounds frustrating, especially being called out publicly. Did the situation feel resolved by the time the meeting ended, or is there still tension hanging over you?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T09:36:55",
+          "message": "Still hanging. I don't know if I need to send a follow-up or just let it go."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T09:37:04",
+          "message": "Got it. Is this a pattern with your manager, or did it feel like a one-off today?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T09:37:22",
+          "message": "Bit of a pattern lately, but today was worse than usual."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T09:37:31",
+          "message": "That context is helpful. Before we wrap up — do you want to take 5 minutes away from your screen, or would you rather get back to something you're in control of, like your own work?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T09:37:49",
+          "message": "I'll get back to work. Focusing usually helps me reset."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T09:37:56",
+          "message": "That tracks with your data — your best focus sessions follow stressful events. Go for it. I'll flag this pattern for your daily report."
+        }
+      ],
+      "outcome": {
+        "resolution": "User chose to resume work. Stress declined within 30 minutes.",
+        "flag_for_report": true,
+        "flags": ["manager_conflict", "public_criticism", "recurring_stressor"]
+      }
+    },
+    {
+      "session_id": "sess_004",
+      "type": "MEDICINE_NOTIFICATION",
+      "timestamp": "2025-02-22T12:00:00",
+      "details": {
+        "medicine": "Afternoon supplement — Magnesium Glycinate 200mg",
+        "status": "DISMISSED",
+        "acknowledged_at": null,
+        "note": "User dismissed without confirming. Possible lunch distraction."
+      }
+    },
+    {
+      "session_id": "sess_005",
+      "type": "TRIAGE_NOTIFICATION",
+      "timestamp": "2025-02-22T14:53:00",
+      "details": {
+        "trigger": "Focus drop and stress rise detected during Slack session — focus_level dropped from 75 to 47, stress rose from 27 to 47",
+        "threshold_exceeded": "focus_drop > 25 AND stress_level > 40",
+        "status": "ACCEPTED",
+        "agent_session_id": "triage_014",
+        "note": "User accepted triage after 40 seconds."
+      }
+    },
+    {
+      "session_id": "sess_006",
+      "type": "TRIAGE_CHAT_LOG",
+      "timestamp": "2025-02-22T14:53:40",
+      "agent_session_id": "triage_014",
+      "trigger": {
+        "metric": "focus_score + stress_level",
+        "focus_before": 75.4,
+        "focus_after": 47.2,
+        "stress_before": 28.9,
+        "stress_after": 46.9,
+        "context_app": "Slack",
+        "context_state": "COMMUNICATION"
+      },
+      "duration_seconds": 312,
+      "chat_log": [
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T14:53:42",
+          "message": "I caught a pretty sharp dip in focus and a stress rise while you were on Slack just now. What was going on?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T14:54:01",
+          "message": "Got a message from a client saying they're unhappy with the delivery timeline. I wasn't expecting it."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T14:54:09",
+          "message": "Unexpected bad news tends to hit hard. Did you reply already, or are you still figuring out how to respond?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T14:54:28",
+          "message": "Haven't replied yet. I closed the thread because I couldn't think straight."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T14:54:36",
+          "message": "Good call — replying when stressed usually doesn't go well. Is this something you need to handle today, or can it wait until tomorrow morning when you're fresh?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T14:54:52",
+          "message": "Probably can wait until tomorrow. They're in a different timezone."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T14:55:01",
+          "message": "Perfect. I'd suggest scheduling 15 minutes tomorrow morning for it. Want me to add a reminder? And in the meantime — are you okay to keep going today?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T14:55:17",
+          "message": "Yeah, add the reminder. I'm going to go back to coding, that'll help."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T14:55:24",
+          "message": "Reminder added for 09:00 tomorrow. Your afternoon code sessions tend to be your strongest — you're in a good window for it."
+        }
+      ],
+      "outcome": {
+        "resolution": "User deferred client reply to next morning. Returned to VS Code — focus recovered to 88+ within 40 minutes.",
+        "flag_for_report": true,
+        "flags": ["client_conflict", "communication_stress", "healthy_deferral"],
+        "reminder_created": {
+          "time": "2025-02-23T09:00:00",
+          "note": "Reply to client re: delivery timeline"
+        }
+      }
+    },
+    {
+      "session_id": "sess_007",
+      "type": "TRIAGE_NOTIFICATION",
+      "timestamp": "2025-02-22T15:10:00",
+      "details": {
+        "trigger": "Routine 6-hour check-in",
+        "threshold_exceeded": null,
+        "status": "DISMISSED",
+        "agent_session_id": null,
+        "note": "Routine notification dismissed. User was in a deep work session — non-critical."
+      }
+    },
+    {
+      "session_id": "sess_008",
+      "type": "MEDICINE_NOTIFICATION",
+      "timestamp": "2025-02-22T18:00:00",
+      "details": {
+        "medicine": "Evening supplement — Omega-3 1000mg",
+        "status": "ACKNOWLEDGED",
+        "acknowledged_at": "2025-02-22T18:03:11",
+        "note": "Acknowledged within 4 minutes. On schedule."
+      }
+    },
+    {
+      "session_id": "sess_009",
+      "type": "TRIAGE_NOTIFICATION",
+      "timestamp": "2025-02-22T20:30:00",
+      "details": {
+        "trigger": "Evening check-in — end of active day review",
+        "threshold_exceeded": null,
+        "status": "DISMISSED",
+        "agent_session_id": null,
+        "note": "User dismissed. No intervention needed — metrics were calm during evening unwind."
+      }
+    },
+    {
+      "session_id": "sess_010",
+      "type": "TRIAGE_NOTIFICATION",
+      "timestamp": "2025-02-22T09:10:00",
+      "details": {
+        "trigger": "Pre-emptive alert — stress accelerating during Zoom, 4 minutes before peak",
+        "threshold_exceeded": "stress_change_rate > 5pts/min for 3 consecutive minutes",
+        "status": "SNOOZED",
+        "agent_session_id": null,
+        "note": "User snoozed the alert mid-meeting. Check-in was re-triggered at 09:36 after meeting ended."
+      }
+    }
+  ]
+}

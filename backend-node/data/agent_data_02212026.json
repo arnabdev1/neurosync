@@ -1,0 +1,161 @@
+{
+  "date": "2025-02-22",
+  "user_id": "user_4821",
+  "hourly_trends": [
+    {
+      "hour": "07:00",
+      "label": "Morning Baseline",
+      "avg_focus_score": 80.0,
+      "avg_stress_level": 22.1,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["Slack"],
+      "active_minutes": 45,
+      "trend_description": "User started the day with a strong baseline. The 1D-CNN classified the initial 45 minutes of Slack communication as 'Deep Work' with a highly optimal Beta/Theta ratio. Heart rate variability (HRV) indicates the user is well-rested. No LangGraph agent interventions were required during this initialization phase."
+    },
+    {
+      "hour": "08:00",
+      "label": "Context Switching Initiated",
+      "avg_focus_score": 68.4,
+      "avg_stress_level": 35.6,
+      "dominant_state": "LIGHT_WORK",
+      "primary_apps": ["Slack", "Reddit"],
+      "active_minutes": 52,
+      "trend_description": "First signs of cognitive degradation detected. The user began toggling rapidly between Slack and Reddit. The real-time ML pipeline noted a drop in Frontal Alpha Asymmetry, indicating mild frustration or boredom. The LSTM predictive model has started forecasting a potential focus crash if this dopamine-seeking loop continues for another 40 minutes."
+    },
+    {
+      "hour": "09:00",
+      "label": "The Reddit Rabbit Hole",
+      "avg_focus_score": 45.2,
+      "avg_stress_level": 68.9,
+      "dominant_state": "SCATTERED",
+      "primary_apps": ["Reddit"],
+      "active_minutes": 58,
+      "trend_description": "Critical focus drop. The user spent nearly the entire hour scrolling Reddit. The continuous EEG stream showed dominant high-amplitude Theta waves, while PPG sensors caught a steady rise in baseline stress (68.9). The Featherless DeepSeek agent issued a Level 1 warning to the Next.js dashboard: 'Your focus is degrading rapidly. Suggest closing Reddit to preserve cognitive stamina for the afternoon.'"
+    },
+    {
+      "hour": "10:00",
+      "label": "Invisible Burnout Peak",
+      "avg_focus_score": 28.1,
+      "avg_stress_level": 84.3,
+      "dominant_state": "HIGH_STRESS",
+      "primary_apps": ["Reddit", "Slack"],
+      "active_minutes": 55,
+      "trend_description": "System triggered an urgent intervention. The user attempted to answer Slack messages while still doomscrolling Reddit, causing a massive cognitive overload. Stress peaked at 84.3. The LangGraph state machine executed a physical actuation command: the ESP32 Neopixel ring flashed orange, and the DeepSeek agent forced a 'Triage Session' popup on the screen, advising an immediate hard break."
+    },
+    {
+      "hour": "11:00",
+      "label": "System-Enforced Break",
+      "avg_focus_score": null,
+      "avg_stress_level": null,
+      "dominant_state": "BREAK",
+      "primary_apps": [],
+      "active_minutes": 0,
+      "trend_description": "Successful intervention. The user complied with the LangGraph agent's recommendation and stepped away from the device completely. No biometric or active window data was recorded. This 60-minute absolute clearance of digital stimuli is crucial for clearing adenosine buildup and resetting the user's dopamine baseline."
+    },
+    {
+      "hour": "12:00",
+      "label": "Post-Break Flow Rebound",
+      "avg_focus_score": 88.4,
+      "avg_stress_level": 18.5,
+      "dominant_state": "FLOW_STATE",
+      "primary_apps": ["Slack"],
+      "active_minutes": 50,
+      "trend_description": "Massive cognitive rebound detected. Following the system-enforced break, the user returned to Slack to clear their backlog. The 1D-CNN registered the highest Focus Score of the day (88.4) with incredibly low stress. This perfectly validates the LSTM model's prediction that a hard break would restore the Executive Function fuel gauge."
+    },
+    {
+      "hour": "13:00",
+      "label": "Sustained Productivity",
+      "avg_focus_score": 82.1,
+      "avg_stress_level": 25.0,
+      "dominant_state": "DEEP_WORK",
+      "primary_apps": ["Slack"],
+      "active_minutes": 48,
+      "trend_description": "The user maintained a highly efficient workflow in Slack. Biometric telemetry remains stable. The Featherless KimiK2 background process has logged this successful recovery arc to include in tonight's RAG-based Cognitive Journal, highlighting the exact ROI of taking timely screen breaks."
+    },
+    {
+      "hour": "14:00",
+      "label": "Minor Fatigue Onset",
+      "avg_focus_score": 76.5,
+      "avg_stress_level": 32.4,
+      "dominant_state": "LIGHT_WORK",
+      "primary_apps": ["Slack", "Reddit"],
+      "active_minutes": 35,
+      "trend_description": "Natural afternoon fatigue is setting in. A brief 5-minute session on Reddit was detected, but unlike the morning session, the user self-corrected and returned to Slack without agent intervention. Focus dipped slightly but remains well within acceptable operational parameters."
+    },
+    {
+      "hour": "15:00",
+      "label": "End of Day Wind-Down",
+      "avg_focus_score": 72.0,
+      "avg_stress_level": 28.1,
+      "dominant_state": "LIGHT_WORK",
+      "primary_apps": ["Slack"],
+      "active_minutes": 20,
+      "trend_description": "Final active hour of the session. The user is clearing final Slack messages. The day concludes with a Focus Score exactly at 72.0. The LangGraph agent has finalized the daily tracking and queued the full JSON payload for KimiK2 to generate the personalized daily PDF report."
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "sess_001",
+      "type": "TRIAGE_NOTIFICATION",
+      "timestamp": "2025-02-22T10:14:00",
+      "details": {
+        "trigger": "LSTM Burnout Prediction — stress_level exceeded 80 while active on Reddit for >40 mins.",
+        "threshold_exceeded": "stress_level > 80 AND focus_score < 30",
+        "status": "ACCEPTED",
+        "agent_session_id": "triage_009",
+        "note": "User accepted the DeepSeek agent's prompt to initiate a 5-minute wellness check."
+      }
+    },
+    {
+      "session_id": "sess_002",
+      "type": "TRIAGE_CHAT_LOG",
+      "timestamp": "2025-02-22T10:14:30",
+      "agent_session_id": "triage_009",
+      "trigger": {
+        "metric": "stress_level",
+        "value_before": 35.6,
+        "value_after": 84.3,
+        "change": "+48.7",
+        "context_app": "Reddit",
+        "context_state": "HIGH_STRESS"
+      },
+      "duration_seconds": 180,
+      "chat_log": [
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T10:14:35",
+          "message": "System Alert: Your neural telemetry indicates severe cognitive fatigue. You have been scrolling Reddit for nearly an hour, and your stress levels are redlining at 84%. Are you experiencing brain fog or physical tension?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T10:15:01",
+          "message": "Yeah, my neck is completely stiff and I can't seem to stop scrolling even though I have Slack messages piling up."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T10:15:08",
+          "message": "Classic executive dysfunction loop. Your Beta/Theta ratio confirms you lack the biological fuel right now to force a task switch. I am going to trigger the ESP32 haptic motor to help break your physical trance."
+        },
+        {
+          "role": "user",
+          "timestamp": "2025-02-22T10:15:30",
+          "message": "Okay, the vibration helped snap me out of it. What should I do?"
+        },
+        {
+          "role": "agent",
+          "timestamp": "2025-02-22T10:15:40",
+          "message": "My LSTM model predicts a total burnout crash if you attempt to answer those Slack messages right now. I am officially prescribing a 60-minute total screen break. Step away from the desk. I will log this intervention for your daily RAG report."
+        }
+      ],
+      "outcome": {
+        "resolution": "User complied with intervention. Commenced 60-minute break, leading to massive focus recovery at 12:00.",
+        "flag_for_report": true,
+        "flags": [
+          "doomscrolling_broken",
+          "haptic_actuation_successful",
+          "burnout_prevented"
+        ]
+      }
+    }
+  ]
+}

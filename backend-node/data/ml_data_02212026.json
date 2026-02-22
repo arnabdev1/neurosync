@@ -1,0 +1,320 @@
+{
+  "date": "2025-02-22",
+  "user_id": "user_4821",
+  "active_minutes": [
+    {
+      "timestamp": "2025-02-22T08:00:00",
+      "elapsed_seconds": 60,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 80.0, "stress_level": 28.4 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T08:01:00",
+      "elapsed_seconds": 120,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 79.3, "stress_level": 29.1 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T08:02:00",
+      "elapsed_seconds": 180,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 78.6, "stress_level": 30.2 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T08:03:00",
+      "elapsed_seconds": 240,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 77.8, "stress_level": 31.4 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T08:04:00",
+      "elapsed_seconds": 300,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 77.1, "stress_level": 32.0 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T09:10:00",
+      "elapsed_seconds": 60,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 76.4, "stress_level": 33.7 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T09:11:00",
+      "elapsed_seconds": 120,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 75.6, "stress_level": 34.5 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T09:12:00",
+      "elapsed_seconds": 180,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 74.9, "stress_level": 35.3 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T09:13:00",
+      "elapsed_seconds": 240,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 74.1, "stress_level": 36.1 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T09:14:00",
+      "elapsed_seconds": 300,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 73.3, "stress_level": 37.2 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T09:15:00",
+      "elapsed_seconds": 360,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 72.4, "stress_level": 38.6 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T09:16:00",
+      "elapsed_seconds": 420,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 71.5, "stress_level": 39.9 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T09:17:00",
+      "elapsed_seconds": 480,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 70.6, "stress_level": 41.3 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T10:30:00",
+      "elapsed_seconds": 60,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 69.8, "stress_level": 38.7 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:31:00",
+      "elapsed_seconds": 120,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 68.9, "stress_level": 36.2 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:32:00",
+      "elapsed_seconds": 180,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 68.1, "stress_level": 34.1 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:33:00",
+      "elapsed_seconds": 240,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 67.2, "stress_level": 32.4 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:34:00",
+      "elapsed_seconds": 300,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 66.4, "stress_level": 30.9 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:35:00",
+      "elapsed_seconds": 360,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 65.5, "stress_level": 29.7 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:36:00",
+      "elapsed_seconds": 420,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 64.7, "stress_level": 28.5 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:37:00",
+      "elapsed_seconds": 480,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 63.8, "stress_level": 27.4 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:38:00",
+      "elapsed_seconds": 540,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 63.1, "stress_level": 26.6 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T10:39:00",
+      "elapsed_seconds": 600,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 62.4, "stress_level": 25.9 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T13:05:00",
+      "elapsed_seconds": 60,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 74.8, "stress_level": 24.3 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T13:06:00",
+      "elapsed_seconds": 120,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 76.2, "stress_level": 23.7 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T13:07:00",
+      "elapsed_seconds": 180,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 77.5, "stress_level": 23.1 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T13:08:00",
+      "elapsed_seconds": 240,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 78.9, "stress_level": 22.6 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T13:09:00",
+      "elapsed_seconds": 300,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 80.1, "stress_level": 22.0 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T13:10:00",
+      "elapsed_seconds": 360,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 81.4, "stress_level": 21.5 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T14:20:00",
+      "elapsed_seconds": 60,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 80.7, "stress_level": 22.8 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T14:21:00",
+      "elapsed_seconds": 120,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 79.8, "stress_level": 23.9 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T14:22:00",
+      "elapsed_seconds": 180,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 79.1, "stress_level": 25.1 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T14:23:00",
+      "elapsed_seconds": 240,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 78.3, "stress_level": 26.4 },
+      "cognitive_state": "DEEP_WORK"
+    },
+    {
+      "timestamp": "2025-02-22T15:45:00",
+      "elapsed_seconds": 60,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 77.5, "stress_level": 30.1 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T15:46:00",
+      "elapsed_seconds": 120,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 76.6, "stress_level": 31.8 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T15:47:00",
+      "elapsed_seconds": 180,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 75.8, "stress_level": 33.4 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T15:48:00",
+      "elapsed_seconds": 240,
+      "app_used": "Slack",
+      "metrics": { "focus_score": 75.0, "stress_level": 35.0 },
+      "cognitive_state": "COMMUNICATION"
+    },
+    {
+      "timestamp": "2025-02-22T16:30:00",
+      "elapsed_seconds": 60,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 74.2, "stress_level": 32.6 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T16:31:00",
+      "elapsed_seconds": 120,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 73.5, "stress_level": 31.2 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T16:32:00",
+      "elapsed_seconds": 180,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 72.7, "stress_level": 29.9 },
+      "cognitive_state": "BREAK"
+    },
+    {
+      "timestamp": "2025-02-22T16:33:00",
+      "elapsed_seconds": 240,
+      "app_used": "Reddit",
+      "metrics": { "focus_score": 72.0, "stress_level": 28.7 },
+      "cognitive_state": "BREAK"
+    }
+  ],
+  "gaps": [
+    {
+      "from": "2025-02-22T10:40:00",
+      "to": "2025-02-22T13:05:00",
+      "duration_minutes": 145,
+      "label": "OFFLINE_BREAK",
+      "note": "No app usage detected. User was away from device. Focus rebounded +12.4 pts upon return to 74.8, peaking at 81.4 within 6 minutes."
+    }
+  ],
+  "summary": {
+    "total_active_minutes": 41,
+    "cognitive_state_breakdown": {
+      "DEEP_WORK": 23,
+      "COMMUNICATION": 8,
+      "BREAK": 10
+    },
+    "apps_used": ["Slack", "Reddit"],
+    "focus_score_start": 80.0,
+    "focus_score_end": 72.0,
+    "focus_score_pre_gap_low": 62.4,
+    "focus_score_post_gap_rebound": 74.8,
+    "focus_score_peak_post_gap": 81.4,
+    "avg_focus_score": 74.9,
+    "avg_stress_level": 30.1,
+    "peak_stress": { "value": 41.3, "timestamp": "2025-02-22T09:17:00" },
+    "notable_pattern": "Focus opened at 80.0 and declined steadily through morning Slack and Reddit usage, hitting a low of 62.4 before the offline gap. After 145 minutes off-device, focus rebounded sharply to 74.8 and peaked at 81.4 — a +12.4 pt recovery. Focus then tapered gradually through the afternoon, closing the day at 72.0."
+  }
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "session_id": "session_9042_med",
+    "type": "MEDICATION_REMINDER",
+    "timestamp": "2026-02-22T08:30:00Z",
+    "title": "Protocol Reminder: Hydration & Medication",
+    "description": "Routine biometric trigger based on morning initialization baseline.",
+    "details": {
+      "trigger_source": "LangGraph_Scheduler",
+      "biometric_context": "Focus score stabilizing at 80.0. Optimal window for metabolic absorption.",
+      "agent_message": "Good morning. Your 1D-CNN baseline has calibrated for the day. Please take your prescribed morning medication and 500ml of water to ensure your Executive Function fuel gauge is optimized before deep work begins.",
+      "action_required": "Acknowledge",
+      "status": "COMPLETED"
+    }
+  },
+  {
+    "session_id": "session_9043_appt",
+    "type": "CLINICAL_APPOINTMENT_SUGGESTION",
+    "timestamp": "2026-02-22T10:00:00Z",
+    "title": "Action Required: Schedule Follow-up with Dr. Maliha Rahman",
+    "description": "Featherless KimiK2 RAG analysis detected a 14-day macro trend requiring clinical review.",
+    "details": {
+      "trigger_source": "KimiK2_Memory_Synthesis",
+      "biometric_context": "Average afternoon Focus Score has degraded by 12% over the last two weeks, while resting Heart Rate indicates mild chronic fatigue.",
+      "agent_message": "Based on my analysis of your biometric history and daily RAG reports, I am noticing a recurring pattern of afternoon cognitive fatigue that isn't resolving with standard screen breaks. I highly suggest scheduling a brief telehealth follow-up with Dr. Maliha Rahman to review your current protocol.",
+      "action_required": "Schedule Appointment",
+      "status": "PENDING"
+    }
+  },
+  {
+    "session_id": "session_9044_daily_triage",
+    "type": "DAILY_WELLNESS_CHECK",
+    "timestamp": "2026-02-22T14:00:00Z",
+    "title": "Scheduled: Daily 5-Minute Wellness Check",
+    "description": "Routine daily cognitive and biometric alignment check-in.",
+    "details": {
+      "trigger_source": "LangGraph_Daily_Cron",
+      "biometric_context": "Stable day. No stress spikes detected. Active windows predominantly Slack and Reddit.",
+      "agent_message": "Good afternoon. It's time for your scheduled daily wellness check to calibrate today's RAG report. Please find 5 minutes of time and start this chat for your wellness.",
+      "action_required": "Start Session",
+      "status": "ACCEPTED"
+    }
+  },
+  {
+    "session_id": "session_9045_triage_chat",
+    "type": "WELLNESS_TRIAGE_SESSION",
+    "timestamp": "2026-02-22T14:05:30Z",
+    "title": "Triage Session: Routine Baseline Evaluation",
+    "description": "Live Featherless DeepSeek-V3 evaluation for daily cognitive journaling.",
+    "details": {
+      "trigger_source": "User_Accepted_Triage",
+      "duration_seconds": 128,
+      "clinical_escalation": false,
+      "chat_log": [
+        {
+          "role": "agent",
+          "timestamp": "2026-02-22T14:05:32Z",
+          "message": "Welcome to your daily wellness check. I've been monitoring your telemetry, and your metrics have been incredibly stable today with zero stress spikes. I see you've mostly been alternating between Slack and Reddit. How is your energy holding up?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2026-02-22T14:06:05Z",
+          "message": "Energy is actually really good today. Just catching up on some Slack threads for work and took a short break on Reddit a bit ago to clear my head."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2026-02-22T14:06:12Z",
+          "message": "Excellent. Your Beta/Theta ratio confirms a healthy baseline, and your focus recovery after your Reddit break was optimal. Are you experiencing any physical tension or eye strain?"
+        },
+        {
+          "role": "user",
+          "timestamp": "2026-02-22T14:06:30Z",
+          "message": "Nope, feeling fine. I got up to stretch and grab some water right before this."
+        },
+        {
+          "role": "agent",
+          "timestamp": "2026-02-22T14:06:40Z",
+          "message": "Perfect. You are operating exactly within your ideal cognitive parameters. I'll log this as a highly stable, productive day in your cognitive journal. No adjustments to your schedule or clinical alerts are needed. Keep up the good pace. Ending session."
+        }
+      ],
+      "status": "COMPLETED_NO_ACTION_NEEDED"
+    }
+  }
+]
