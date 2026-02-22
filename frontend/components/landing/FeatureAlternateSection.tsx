@@ -11,6 +11,7 @@ const features = [
     description:
       "Our Hybrid ML pipeline processes a 5-second sliding window of spectral features extracted from raw EEG, including Alpha, Beta, Theta, and Gamma band power densities. A custom 1D Convolutional Neural Network performs temporal pattern recognition to classify cognitive state into Deep Work, Flow, Stress, and Scattered zones, mapping the mind in real time for precise ADHD-aware intervention.",
     imageLeft: true,
+    image: "/1.png",
   },
   {
     label: "Autonomous Actuation",
@@ -18,6 +19,7 @@ const features = [
     description:
       "A LangGraph-powered Agentic Controller cross-references biological state data with digital context such as active windows and calendar intent to autonomously modify the environment. It adjusts IoT lighting, triggers haptics, blocks distracting applications, and adapts music context to guide the user back toward flow without conscious decision overhead.",
     imageLeft: false,
+    image: "/2.png",
   },
   {
     label: "Predictive Intelligence",
@@ -25,6 +27,7 @@ const features = [
     description:
       "An LSTM recurrent model analyzes 4-hour historical biosignal trends to predict focus crashes up to 30 minutes before onset, enabling preemptive intervention. At day-end, a Gemini 1.5 Pro LLM with retrieval-augmented generation (RAG) cross-references biological telemetry and calendar events to generate actionable Cognitive Reflection reports personalized for ADHD support.",
     imageLeft: true,
+    image: "/3.png",
   },
 ];
 
@@ -33,12 +36,14 @@ function FeatureBlock({
   label,
   description,
   imageLeft,
+  image,
   progress,
 }: {
   title: string;
   label: string;
   description: string;
   imageLeft: boolean;
+  image: string;
   progress: MotionValue<number>;
 }) {
   const [opacity, setOpacity] = useState(0);
@@ -51,7 +56,7 @@ function FeatureBlock({
       <div className={imageLeft ? "" : "md:order-2"}>
         <div className="relative aspect-video rounded-2xl overflow-hidden border border-zinc-200 bg-zinc-100">
           <Image
-            src="/neuron.jpg"
+            src={image}
             alt={title}
             fill
             className="object-cover"

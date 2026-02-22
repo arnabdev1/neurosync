@@ -97,7 +97,7 @@ export default function Navbar() {
                   My Clinic
                 </Link>
                 <Link href="/agent-chat" className={getLinkClass("/agent-chat")}>
-                  Agent Chat
+                  AI Agent Chat
                 </Link>
                 <Link href="/about" className={navLinkClass}>
                   About Us

@@ -56,7 +56,7 @@ export default function AboutSection() {
             className="relative aspect-video rounded-2xl overflow-hidden border border-zinc-200 bg-zinc-100"
           >
             <Image
-              src="/neuron.jpg"
+              src="/muse.png"
               alt="Neuron visualization"
               fill
               className="object-cover"
