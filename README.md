@@ -1,3 +1,5 @@
+## Devpost: https://devpost.com/software/undecided-iwednr
+
 ## 🛠️ Project Setup & Run Guide
 
 Follow the steps below to run the NeuroSync ecosystem locally:

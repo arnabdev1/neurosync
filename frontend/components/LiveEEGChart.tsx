@@ -15,8 +15,8 @@ const Y_MIN    = Y_CENTER - Y_HALF;  // -750
 const Y_MAX    = Y_CENTER + Y_HALF;  // 1250
 
 // Focus detection thresholds (µV) — if any channel goes outside this range → "Focused"
-const FOCUS_LOW  = -100;
-const FOCUS_HIGH = 150;
+const FOCUS_LOW  = -150;
+const FOCUS_HIGH = 200;
 const FOCUS_HOLD_MS = 2000; // hold "Focused" for 2 seconds after last exceedance
 
 interface LiveEEGChartProps {
